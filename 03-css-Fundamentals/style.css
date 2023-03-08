@@ -96,7 +96,7 @@ a:visited {
 }
 
 a:hover {
-  color: orangered;
+  color: rgb(90, 38, 19);
   font-weight: bold;
   text-decoration: underline orangered;
 }
