@@ -2,6 +2,7 @@ body {
     border: 3px solid black;
     font-family: sans-serif;
 font-size: 12px;
+line-height: 1.4;
 color: rgb(6, 6, 6);
 }
 
@@ -24,20 +25,21 @@ strong {
 }
 
 a:link {
-    color: black;   
-}
-
-a:hover {
-    font-size: 14px;
+    color: #e2fb52;
     font-weight: bold;
-text-decoration: none;
-color: rgb(9, 120, 128);
 }
 
 a:visited {
     color: blue;
     font-weight: bold;
     text-decoration: none;
+}
+
+a:hover {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(10, 150, 160);
 }
 
 a:active {
@@ -58,4 +60,11 @@ ul {
 button{
     background-color: black;
     color: white;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    border: none;
 }
