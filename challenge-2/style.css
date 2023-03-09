@@ -1,28 +1,48 @@
-body {
-  border: 3px solid black;
+* {
+  padding: 0;
+  margin: 0;
   font-family: sans-serif;
   font-size: 12px;
   line-height: 1.4;
-  color: rgb(6, 6, 6);
+  color: black;
+}
+
+.container {
+  width: 825px;
+  margin: 0 auto;
+  border: 3px solid black;
 }
 
 h2 {
+  background-color: #f8f5f5;
   text-align: center;
   text-transform: uppercase;
-  background-color: #e9e3e3;
   font-size: 18px;
+  padding: 5px 0;
+  margin: 10px o;
+}
+
+.conversepic {
+margin-bottom: 10px;
 }
 
 strong {
   font-weight: bolder;
   font-size: 18px;
+  /* padding: 5px 0; */
+  margin-bottom: 10px;
 }
 
 .free {
-  font-size: 13px;
+  font-size: 10px;
   font-weight: bold;
-  color: #5a5858;
+  color:#444;
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.description {
+  padding-bottom: 10px;
 }
 
 a:link,
@@ -48,9 +68,11 @@ h4 {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 ul {
+  padding: 20px;
   list-style: square;
 }
 
@@ -59,11 +81,11 @@ button {
   color: white;
   text-transform: uppercase;
   cursor: pointer;
+  width: 100%;
 }
 
 button:hover {
   color: black;
   background-color: white;
-  border: none;
   cursor: pointer;
 }
