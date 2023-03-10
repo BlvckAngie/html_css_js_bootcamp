@@ -1,4 +1,4 @@
-*  {
+* {
   margin: 0;
   padding: 0;
 }
@@ -7,6 +7,7 @@ body {
   font-family: sans-serif;
   color: #444;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container {
@@ -20,6 +21,8 @@ h3 {
   color: #1098ad;
 }
 
+/* top of page */
+
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
@@ -27,13 +30,50 @@ h3 {
   height: 80px;
 }
 
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* header navigation */
+
 nav {
   font-size: 18px;
 }
-
-.big image {
-  width: 50%;
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #1098ad;
+  text-decoration: none;
 }
+nav a:visited {
+  text-decoration: underline;
+  color: #1098ad;
+}
+
+nav a:hover {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+}
+
+nav a:active {
+  background-color: #444;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+/* beginning of body */
 
 article {
   margin-bottom: 60px;
@@ -43,15 +83,28 @@ article {
   margin-bottom: 40px;
 }
 
-h1 {
-  font-size: 26px;
-  text-transform: uppercase;
-  font-style: italic;
+/* main image */
+
+.big image {
+  width: 50%;
 }
 
 h2 {
   font-size: 40px;
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: #ffe70c;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
 }
 
 h3 {
@@ -67,7 +120,7 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
 li {
@@ -93,12 +146,12 @@ li:last-child {
   font-style: italic;
 }*/
 
-#angel {
+/* .angel {
   font-style: italic;
   font-size: 18px;
-}
+} */
 
-#copy {
+.copy {
   font-size: 18px;
 }
 
@@ -110,7 +163,6 @@ li:last-child {
 .post {
   list-style: none;
 }
-
 
 aside {
   background-color: #f7f7f7;
@@ -138,4 +190,12 @@ a:hover {
 a:active {
   background-color: black;
   color: orange;
+}
+
+button {
+  position: absolute;
+  padding: 20px;
+  cursor: pointer;
+  bottom: 50px;
+  right: 50px;
 }

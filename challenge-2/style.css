@@ -9,7 +9,7 @@
 
 .container {
   width: 825px;
-  margin: 0 auto;
+  margin: 10px auto;
   border: 3px solid black;
 }
 
@@ -18,12 +18,12 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
-  padding: 5px 0;
-  margin: 10px o;
+  padding: 10px 0;
+  /* margin: 10px 0; */
 }
 
 .conversepic {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 strong {
@@ -36,7 +36,7 @@ strong {
 .free {
   font-size: 10px;
   font-weight: bold;
-  color:#444;
+  color: #444;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -69,11 +69,16 @@ h4 {
   font-size: 16px;
   font-weight: bold;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 ul {
-  padding: 20px;
+  padding-left: 20px;
   list-style: square;
+}
+
+ul li {
+  margin-bottom: 20px;
 }
 
 button {
@@ -81,7 +86,11 @@ button {
   color: white;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 10px 0;
   width: 100%;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 button:hover {
