@@ -5,6 +5,7 @@
   font-size: 12px;
   line-height: 1.4;
   color: black;
+  box-sizing: border-box;
 }
 
 .container {
@@ -83,7 +84,7 @@ a:active {
 }
 
 .colorboxes {
-  width: 50%;
+  width: 240px;
 }
 
 .color {
@@ -121,7 +122,7 @@ h4 {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 20px;
 }
 
@@ -150,4 +151,36 @@ button:hover {
   color: black;
   background-color: white;
   cursor: pointer;
+}
+
+/* Float */
+.conversepic {
+  float: left;
+  margin-bottom: 0;
+}
+
+.columnone {
+  margin-left: 40px;
+  float: left;
+  width: 243px;
+}
+
+strong {
+  float: left;
+  margin-top: 20px;
+}
+
+.free {
+  float: right;
+  margin-top: 25px;
+}
+
+.description {
+  clear: both;
+}
+.columntwo {
+  margin-left: 40px;
+  margin-top: 20px;
+  float: left;
+  width: 243px;
 }
