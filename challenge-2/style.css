@@ -86,50 +86,36 @@ a:active {
   width: 50%;
 }
 
-.black {
+.color {
+  width: 22px;
+  height: 22px;
   display: inline-block;
-  background-color: #000000;
-  padding: 0 7px;
   margin-right: 10px;
+}
+
+.black {
+  background-color: #000000;
 }
 
 .blue {
-  display: inline-block;
   background-color: #0000ff;
-  color: #0000ff;
-  padding: 0 7px;
-  margin-right: 10px;
 }
 
 .red {
-  display: inline-block;
   background-color: #fc0707;
-  color: #fc0707;
-  padding: 0 7px;
-  margin-right: 10px;
 }
 
 .yellow {
-  display: inline-block;
   background-color: #fcfc39;
-  color: #fcfc39;
-  padding: 0 7px;
-  margin-right: 10px;
 }
 
 .green {
-  display: inline-block;
   background-color: #079c07;
-  color: #079c07;
-  padding: 0 7px;
-  margin-right: 10px;
 }
 
 .burgundy {
-  display: inline-block;
   background-color: #630808;
-  color: #630808;
-  padding: 0 7px;
+  margin-right: 0;
 }
 h4 {
   text-transform: uppercase;
