@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+a:link {
+  font-size: 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+  text-decoration: dashed;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.img {
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+
+.logo {
+  position: relative;
+  border-top: 50px solid #ea4335;
+  border-right: 50px solid #4285f4;
+  border-bottom: 50px solid #34a853;
+  border-left: 50px solid #fbbc05;
+  border-radius: 50%;
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  padding: 0;
+  /* margin: vh auto 0; */
+}
+
+.logo::before {
+  content: "";
+  z-index: 45;
+  position: absolute;
+  top: 25%;
+  right: -47.5px;
+  transform: translateY(12%);
+  width: 120px;
+  height: 50px;
+  background: #4285f4;
+}
+
+.logo::after {
+  content: "";
+  z-index: 50.5;
+  position: absolute;
+  border-top: 100px solid transparent;
+  border-right: 100px solid black;
+  top: -50px;
+  right: -50px;
+  width: 0;
+  height: 0;
+}
+
+.search {
+  position: relative;
+  width: 600px;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+input {
+  width: 600px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 60px;
+}
+
+.mfg {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+
+/* CSS GRID */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 60px;
+}
+
+header {
+  grid-column: 1/-1;
+}
+
+.logo {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+}
