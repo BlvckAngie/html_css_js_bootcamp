@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: black;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 825px;
+  margin: 30px auto;
+  border: 3px solid black;
+}
+
+h2 {
+  background-color: #f8f5f5;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 0;
+  position: relative;
+  /* margin: 10px 0; */
+}
+
+h2::after {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  letter-spacing: 4px;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+.conversepic {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 18px;
+  /* padding: 5px 0; */
+  margin-bottom: 10px;
+}
+
+.free {
+  font-size: 10px;
+  font-weight: bold;
+  color: #444;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.description {
+  padding-bottom: 10px;
+}
+.info {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+a:link,
+a:visited {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(10, 150, 160);
+}
+
+a:active {
+  color: #5a5858;
+  background-color: black;
+}
+
+.colorboxes {
+  width: 240px;
+}
+
+.color {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+.red {
+  background-color: #fc0707;
+}
+
+.yellow {
+  background-color: #fcfc39;
+}
+
+.green {
+  background-color: #079c07;
+}
+
+.burgundy {
+  background-color: #630808;
+  margin-right: 0;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style: square;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Float */
+.conversepic {
+  float: left;
+  margin-bottom: 0;
+}
+
+.columnone {
+  margin-left: 40px;
+  float: left;
+  width: 243px;
+}
+
+strong {
+  float: left;
+  margin-top: 20px;
+}
+
+.free {
+  float: right;
+  margin-top: 25px;
+}
+
+.description {
+  clear: both;
+}
+.columntwo {
+  margin-left: 40px;
+  margin-top: 20px;
+  float: left;
+  width: 243px;
+}
